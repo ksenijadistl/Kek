@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  margin: 0;
+  padding: 10px 30px;
+  width: 100%;
+  height: 120px;
+}
+.navbar .dropbtnMenu {
+  background-color: #fff;
+  font-weight: bold;
+  color: #1f72d1;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin-right: 20px;
+}
+.navbar .dropbtnMenu i {
+  margin-right: 10px;
+}
+.navbar .dropdownMenu {
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.navbar .dropdownMenu:hover .dropdownMenu-content {
+  display: block;
+}
+.navbar .dropdownMenu:hover .dropbtnMenu {
+  color: #055bac;
+}
+.navbar .dropdownMenu-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #1f72d1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+.navbar .dropdownMenu-content a {
+  border-radius: 5px;
+  margin: 5px;
+  color: #1f72d1;
+  padding-left: 20px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+.navbar .dropdownMenu-content a:hover {
+  background-color: #0c5c92;
+  color: #fff;
+  transition: 0.5s;
+}
+.navbar .dropbtn {
+  background-color: #fff;
+  font-weight: bold;
+  color: #1f72d1;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #1f72d1;
+  border-radius: 5px;
+}
+.navbar .dropdown {
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.navbar .dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar .dropdown:hover .dropbtn {
+  border: 1px solid #055bac;
+  border-radius: 5px;
+  color: #055bac;
+  text-decoration: underline;
+}
+.navbar .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #1f72d1;
+  min-width: 35px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+.navbar .dropdown-content a {
+  color: #1f72d1;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+.navbar .dropdown-content a:hover {
+  color: #055bac;
+  text-decoration: underline;
+}
+.navbar #search {
+  margin-left: 10px;
+  padding-right: 50px;
+  float: left;
+}
+.navbar #search .search {
+  height: 40px;
+  width: 150px;
+  padding: 10px;
+}
+.navbar #search i {
+  padding-top: 12px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  cursor: pointer;
+}
+
+.header {
+  background-color: #edf8fa;
+  height: 440px;
+  padding: 20px 50px;
+  width: 100%;
+}
+.header img {
+  height: 400px;
+  width: 600px;
+  border-radius: 15px;
+  float: left;
+}
+.header .text {
+  margin-left: 650px;
+  margin-top: 150px;
+}
+.header .text a {
+  text-decoration: none;
+  color: #000;
+}
+.header .text a:hover {
+  text-decoration: underline;
+}
+
+#news {
+  width: 100%;
+  height: 800px;
+  background-color: #fff;
+  text-align: center;
+}
+#news .btn {
+  background-color: #1f72d1;
+  color: #fff;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+#news h3 {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#news .first {
+  text-align: left;
+  margin-left: 50px;
+  padding-top: 50px;
+  float: left;
+}
+#news .first img {
+  height: 250px;
+  width: 380px;
+  border-radius: 15px;
+}
+#news .first .text {
+  width: 350px;
+  margin-top: 15px;
+}
+#news .first .text span {
+  color: #055bac;
+}
+#news .first .text a {
+  text-decoration: none;
+  color: #000;
+}
+#news .first .text a h2 {
+  padding-top: 10px;
+}
+#news .first .text a:hover {
+  text-decoration: underline;
+}
+#news .news {
+  text-align: left;
+  padding-top: 50px;
+  margin-left: 75px;
+  float: left;
+}
+#news .news img {
+  height: 250px;
+  width: 380px;
+  border-radius: 15px;
+}
+#news .news .text {
+  width: 350px;
+  margin-top: 15px;
+}
+#news .news .text span {
+  color: #055bac;
+}
+#news .news .text a {
+  text-decoration: none;
+  color: #000;
+}
+#news .news .text a h2 {
+  padding-top: 10px;
+}
+#news .news .text a:hover {
+  text-decoration: underline;
+}
